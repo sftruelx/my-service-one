@@ -1,0 +1,36 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="my-service-one:war exploded">
+    <output-path>$PROJECT_DIR$/target/my-service-one</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="my-service-one" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-cas:4.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.2.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.2.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.2.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:4.2.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:4.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.2.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.2.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:4.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:4.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context-support:4.2.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.jasig.cas.client:cas-client-core:3.4.1" />
+          <element id="library" level="project" name="Maven: net.sf.ehcache:ehcache:2.9.0" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.16" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.6.4" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.6.4" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/my-service-one/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="my-service-one/web/Web" />
+    </root>
+  </artifact>
+</component>
